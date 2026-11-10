@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel | Help Tech Express - Empresa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@400;500;600&family=New+Amsterdam&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/empresa.css">
+</head>
+
+<body class="empresa" data-page="e-painel">
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="user"><small>Técnico</small><span class="name" id="who">-</span></div>
+      <nav class="nav" aria-label="Empresa">
+        <a href="empresa-painel.html" class="active" aria-current="page"><svg width="40" height="40" viewBox="0 0 24 24"
+            fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <rect x="3" y="3" width="8" height="8" rx="1" />
+            <rect x="13" y="3" width="8" height="5" rx="1" />
+            <rect x="13" y="10" width="8" height="11" rx="1" />
+            <rect x="3" y="13" width="8" height="8" rx="1" />
+          </svg><span>Painel</span></a>
+        <a href="empresa-chamados.html"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff"
+            stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+            <path d="M14 3v5h5M9 13h6M9 17h6" />
+          </svg><span>Chamados</span></a>
+        <a href="index.html"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff"
+            stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 11 12 4l8 7v9H4z" />
+            <path d="M10 20v-6h4v6" />
+          </svg><span>Área do cliente</span></a>
+        <button type="button" id="sair"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff"
+            stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9" />
+          </svg><span>Sair</span></button>
+      </nav>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="e-logo-box"><span class="badge-emp">Área da empresa</span></div><img class="logo" src="img/logo.png"
+          alt="Help Tech Express" width="223" height="59">
+      </header>
+      <h1 class="page-title" id="ola">Olá!</h1>
+      <p style="font-family:var(--font-mono);font-size:20px;margin-top:4px">Resumo dos atendimentos da Help Tech Express
+      </p>
+      <section class="stats" id="stats" aria-label="Resumo"></section>
+      <div class="grid2">
+        <section class="box">
+          <h2>Fila de atendimento</h2>
+          <ul class="queue" id="fila"></ul>
+        </section>
+        <section class="box">
+          <h2>Por status</h2>
+          <div class="bars" id="bars"></div>
+        </section>
+      </div>
+      <section class="box" style="margin-top:24px;max-width:1010px">
+        <h2>Meus atendimentos</h2>
+        <ul class="queue" id="meus"></ul>
+      </section>
+    </main>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="js/empresa.js"></script>
+</body>
+
+</html>

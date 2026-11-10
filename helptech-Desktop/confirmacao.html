@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Novo Chamado - Confirmação | Help Tech Express</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@400;500;600&family=New+Amsterdam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="confirmacao">
+<div class="layout">
+    <aside class="sidebar">
+      <div class="user"><svg class="bell" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="10" r="3.2" fill="currentColor"/><path d="M5.8 18.2c1.6-2.4 3.7-3.4 6.2-3.4s4.6 1 6.2 3.4" stroke-linecap="round"/></svg><span class="name">Luiz</span><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></div>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 12 4l8 7v9H4z"/><path d="M10 20v-6h4v6"/></svg><span>Início</span></a>
+        <a href="novo-chamado.html" class="active" aria-current="page"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span>Novo Chamado</span></a>
+        <a href="meus-chamados.html"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 21h8M12 16v5"/></svg><span>Meus chamados</span></a>
+      </nav>
+      <div class="bottom"><button class="settings" type="button" aria-label="Configurações"><svg width="38" height="38" viewBox="0 0 24 24" fill="#222" aria-hidden="true"><path d="M19.4 13a7.9 7.9 0 0 0 0-2l2.1-1.6a.5.5 0 0 0 .1-.6l-2-3.5a.5.5 0 0 0-.6-.2l-2.5 1a7.3 7.3 0 0 0-1.7-1l-.4-2.6a.5.5 0 0 0-.5-.4h-4a.5.5 0 0 0-.5.4l-.4 2.6a7.3 7.3 0 0 0-1.7 1l-2.5-1a.5.5 0 0 0-.6.2l-2 3.5a.5.5 0 0 0 .1.6L4.6 11a7.9 7.9 0 0 0 0 2l-2.1 1.6a.5.5 0 0 0-.1.6l2 3.5c.1.2.4.3.6.2l2.5-1c.5.4 1.1.7 1.7 1l.4 2.6c0 .2.3.4.5.4h4c.2 0 .5-.2.5-.4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.5 1c.2.1.5 0 .6-.2l2-3.5a.5.5 0 0 0-.1-.6zM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z"/></svg></button><a class="empresa-link" href="empresa-login.html">Área da empresa</a></div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="search"><input type="search" placeholder="Pesquise" aria-label="Pesquisar"></div>
+        <a href="index.html" aria-label="Help Tech Express - início"><img class="logo" src="img/logo.png" alt="Help Tech Express" width="223" height="59"></a>
+      </header>
+      <h1 class="page-title">Novo Chamado</h1>
+      <ol class="stepper" aria-label="Etapas do novo chamado"><li class="step done"><a href="novo-chamado.html"><span class="circle">1</span><span class="label">Dados do cliente</span></a></li><li class="step done"><a href="equipamentos.html"><span class="circle">2</span><span class="label">Equipamentos</span></a></li><li class="step done"><a href="servicos.html"><span class="circle">3</span><span class="label">Serviços</span></a></li><li class="step done"><a href="descricao.html"><span class="circle">4</span><span class="label">Descrição</span></a></li><li class="step current"><span class="s" aria-current="step"><span class="circle">5</span><span class="label">Confirmação</span></span></li></ol>
+      <section class="panel">
+        <h2>Dados Cliente</h2>
+        <p class="intro">Confira tudo antes de confirmar o chamado</p>
+        <div class="form"><div class="field"><label for="c-nome">Nome Completo</label><input id="c-nome" type="text" readonly placeholder=""></div><div class="field"><label for="c-email">Email</label><input id="c-email" type="text" readonly placeholder=""></div><div class="field"><label for="c-tel">Telefone</label><input id="c-tel" type="text" readonly placeholder=""></div><div class="field"><label for="c-prob">Dados do problema e dispositivo</label><input id="c-prob" type="text" readonly placeholder=""></div></div><div class="actions"><button class="btn btn-gray" id="btn-cancelar" type="button">Cancelar</button><button class="btn btn-blue" id="btn-confirmar" type="button">Confirmar</button></div>
+      </section>
+    </main>
+</div>
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

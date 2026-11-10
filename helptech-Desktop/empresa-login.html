@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entrar | Help Tech Express - Empresa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@400;500;600&family=New+Amsterdam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/empresa.css">
+</head>
+<body class="empresa" data-page="e-login">
+<div class="login-wrap">
+  <form class="login-card" id="login-form" novalidate>
+    <img class="logo" src="img/logo.png" alt="Help Tech Express" width="223" height="59">
+    <h1>Área da empresa</h1>
+    <p class="hint">Acesso dos técnicos. Demonstração: <b>tecnico@helptech.com</b> / <b>123456</b></p>
+    <div class="field"><label for="l-email">Email</label><input id="l-email" type="email" placeholder="tecnico@helptech.com" autocomplete="username" required></div>
+    <div class="field"><label for="l-senha">Senha</label><input id="l-senha" type="password" placeholder="••••••" autocomplete="current-password" required></div>
+    <p class="err" id="login-err" style="display:none;color:#b00020;font-size:14px;margin-top:8px;font-weight:500" role="alert"></p>
+    <button class="btn btn-blue" type="submit">Entrar</button>
+    <a class="back" href="index.html">Voltar para a área do cliente</a>
+  </form>
+</div>
+<script src="js/data.js"></script>
+<script src="js/empresa.js"></script>
+</body>
+</html>
